@@ -1,7 +1,7 @@
 #
 # Builder Image
 #
-FROM gradle:6.5-jdk11 AS builder
+FROM gradle:6.9.3-jdk11 AS builder
 
 # Prep build environment
 ENV GRADLE_USER_HOME=cache
